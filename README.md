@@ -81,7 +81,7 @@ The below command creates a topic called **demo-project**.
 
 ## How to instantiate a  Producer
 
-** please see java code :**
+**Please see Java code :**
 
 
 ## How to instantiate a Console Consumer
