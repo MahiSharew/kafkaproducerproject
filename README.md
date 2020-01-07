@@ -1,14 +1,12 @@
 # Simple  kafka producer project with Java 
 
-# Kafka Commands
-
-## How to download Kafka ?
+## How to download Kafka 
 
 ```
 curl "http://mirror.metrocast.net/apache/kafka/0.10.2.0/kafka_2.12-0.10.2.0.tgz" | tar xz
 ```
 
-## How to start a zookeeper ?
+## How to start a zookeeper 
 
 **Windows:**
 
@@ -21,7 +19,7 @@ zookeeper-server-start.bat ..\..\config\zookeeper.properties
 ```
 ./zookeeper-server-start.sh ../config/zookeeper.properties
 ```
-## How to start a Kafka Broker ?
+## How to start a Kafka Broker 
 
 **Windows:**
 
@@ -35,7 +33,7 @@ kafka-server-start.bat ..\..\config\server.properties
 ./kafka-server-start.sh ../config/server.properties
 ```
 
-## How to check the configuration of all the topics in a broker ?
+## How to check the configuration of all the topics in a broker 
 **Windows**
 
 ```
@@ -47,7 +45,7 @@ kafka-topics.bat --describe --zookeeper localhost:2181
 ./kafka-topics.sh --describe --zookeeper localhost:2181
 ```
 
-## How to check the configuration of a particular topic?
+## How to check the configuration of a particular topic
 **Windows**
 
 ```
@@ -58,7 +56,7 @@ kafka-topics.bat --describe --topic replicate_topic --zookeeper localhost:2181
 ./kafka-topics.sh --describe --topic replicate_topic --zookeeper localhost:2181
 ```
 
-## How to create a topic ?
+## How to create a topic 
 **Windows**
 ```
 kafka-topics.bat --create --topic demo-project -zookeeper localhost:2181 --replication-factor 1 --partitions 1.
@@ -78,15 +76,15 @@ kafka-topics.bat --create --topic demo-project -zookeeper localhost:2181 --repli
 Example:  
 The below command creates a topic called **demo-project**.
 ```
-./kafka-topics.sh --create --topic my-first-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
+./kafka-topics.sh --create --topic demo-project -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 ```
 
-## How to instantiate a  Producer?
+## How to instantiate a  Producer
 
-**Java code :**
+** please see java code :**
 
 
-## How to instantiate a Console Consumer?
+## How to instantiate a Console Consumer
 
 **Windows:**
 ```
